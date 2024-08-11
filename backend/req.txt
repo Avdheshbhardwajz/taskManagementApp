@@ -1,0 +1,12 @@
+here is are models for task management app 
+
+users : {
+    name : string
+    email : string 
+    password : string
+    task : {
+        type : mongoose.schema.objectID , 
+        ref : collectionName 
+
+    }
+}
